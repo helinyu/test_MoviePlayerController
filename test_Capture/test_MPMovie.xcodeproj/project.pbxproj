@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DCEE8C5C1DC07C8C001BDE76 /* test_Capture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_Capture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEE8C5C1DC07C8C001BDE76 /* test_MPMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_MPMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEE8C601DC07C8C001BDE76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCEE8C621DC07C8C001BDE76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCEE8C631DC07C8C001BDE76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,10 +48,10 @@
 		DCEE8C6B1DC07C8C001BDE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCEE8C6E1DC07C8C001BDE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCEE8C701DC07C8C001BDE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCEE8C751DC07C8C001BDE76 /* test_CaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_CaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEE8C751DC07C8C001BDE76 /* test_MPMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_MPMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEE8C791DC07C8C001BDE76 /* test_CaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_CaptureTests.m; sourceTree = "<group>"; };
 		DCEE8C7B1DC07C8C001BDE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCEE8C801DC07C8C001BDE76 /* test_CaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_CaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEE8C801DC07C8C001BDE76 /* test_MPMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_MPMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEE8C841DC07C8C001BDE76 /* test_CaptureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_CaptureUITests.m; sourceTree = "<group>"; };
 		DCEE8C861DC07C8C001BDE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCEE8C971DC07D3F001BDE76 /* Video.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Video.storyboard; path = ../Video.storyboard; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		DCEE8C531DC07C8C001BDE76 = {
 			isa = PBXGroup;
 			children = (
-				DCEE8C5E1DC07C8C001BDE76 /* test_Capture */,
+				DCEE8C5E1DC07C8C001BDE76 /* test_MPMovie */,
 				DCEE8C781DC07C8C001BDE76 /* test_CaptureTests */,
 				DCEE8C831DC07C8C001BDE76 /* test_CaptureUITests */,
 				DCEE8C5D1DC07C8C001BDE76 /* Products */,
@@ -99,14 +99,14 @@
 		DCEE8C5D1DC07C8C001BDE76 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCEE8C5C1DC07C8C001BDE76 /* test_Capture.app */,
-				DCEE8C751DC07C8C001BDE76 /* test_CaptureTests.xctest */,
-				DCEE8C801DC07C8C001BDE76 /* test_CaptureUITests.xctest */,
+				DCEE8C5C1DC07C8C001BDE76 /* test_MPMovie.app */,
+				DCEE8C751DC07C8C001BDE76 /* test_MPMovieTests.xctest */,
+				DCEE8C801DC07C8C001BDE76 /* test_MPMovieUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DCEE8C5E1DC07C8C001BDE76 /* test_Capture */ = {
+		DCEE8C5E1DC07C8C001BDE76 /* test_MPMovie */ = {
 			isa = PBXGroup;
 			children = (
 				DCEE8C621DC07C8C001BDE76 /* AppDelegate.h */,
@@ -122,7 +122,7 @@
 				DCEE8C701DC07C8C001BDE76 /* Info.plist */,
 				DCEE8C5F1DC07C8C001BDE76 /* Supporting Files */,
 			);
-			path = test_Capture;
+			path = test_MPMovie;
 			sourceTree = "<group>";
 		};
 		DCEE8C5F1DC07C8C001BDE76 /* Supporting Files */ = {
@@ -141,7 +141,8 @@
 				DCEE8C791DC07C8C001BDE76 /* test_CaptureTests.m */,
 				DCEE8C7B1DC07C8C001BDE76 /* Info.plist */,
 			);
-			path = test_CaptureTests;
+			name = test_CaptureTests;
+			path = test_MPMovieTests;
 			sourceTree = "<group>";
 		};
 		DCEE8C831DC07C8C001BDE76 /* test_CaptureUITests */ = {
@@ -150,15 +151,16 @@
 				DCEE8C841DC07C8C001BDE76 /* test_CaptureUITests.m */,
 				DCEE8C861DC07C8C001BDE76 /* Info.plist */,
 			);
-			path = test_CaptureUITests;
+			name = test_CaptureUITests;
+			path = test_MPMovieUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCEE8C5B1DC07C8C001BDE76 /* test_Capture */ = {
+		DCEE8C5B1DC07C8C001BDE76 /* test_MPMovie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCEE8C891DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_Capture" */;
+			buildConfigurationList = DCEE8C891DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_MPMovie" */;
 			buildPhases = (
 				DCEE8C581DC07C8C001BDE76 /* Sources */,
 				DCEE8C591DC07C8C001BDE76 /* Frameworks */,
@@ -168,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = test_Capture;
+			name = test_MPMovie;
 			productName = test_Capture;
-			productReference = DCEE8C5C1DC07C8C001BDE76 /* test_Capture.app */;
+			productReference = DCEE8C5C1DC07C8C001BDE76 /* test_MPMovie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DCEE8C741DC07C8C001BDE76 /* test_CaptureTests */ = {
+		DCEE8C741DC07C8C001BDE76 /* test_MPMovieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCEE8C8C1DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_CaptureTests" */;
+			buildConfigurationList = DCEE8C8C1DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_MPMovieTests" */;
 			buildPhases = (
 				DCEE8C711DC07C8C001BDE76 /* Sources */,
 				DCEE8C721DC07C8C001BDE76 /* Frameworks */,
@@ -186,14 +188,14 @@
 			dependencies = (
 				DCEE8C771DC07C8C001BDE76 /* PBXTargetDependency */,
 			);
-			name = test_CaptureTests;
+			name = test_MPMovieTests;
 			productName = test_CaptureTests;
-			productReference = DCEE8C751DC07C8C001BDE76 /* test_CaptureTests.xctest */;
+			productReference = DCEE8C751DC07C8C001BDE76 /* test_MPMovieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DCEE8C7F1DC07C8C001BDE76 /* test_CaptureUITests */ = {
+		DCEE8C7F1DC07C8C001BDE76 /* test_MPMovieUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCEE8C8F1DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_CaptureUITests" */;
+			buildConfigurationList = DCEE8C8F1DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_MPMovieUITests" */;
 			buildPhases = (
 				DCEE8C7C1DC07C8C001BDE76 /* Sources */,
 				DCEE8C7D1DC07C8C001BDE76 /* Frameworks */,
@@ -204,9 +206,9 @@
 			dependencies = (
 				DCEE8C821DC07C8C001BDE76 /* PBXTargetDependency */,
 			);
-			name = test_CaptureUITests;
+			name = test_MPMovieUITests;
 			productName = test_CaptureUITests;
-			productReference = DCEE8C801DC07C8C001BDE76 /* test_CaptureUITests.xctest */;
+			productReference = DCEE8C801DC07C8C001BDE76 /* test_MPMovieUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DCEE8C571DC07C8C001BDE76 /* Build configuration list for PBXProject "test_Capture" */;
+			buildConfigurationList = DCEE8C571DC07C8C001BDE76 /* Build configuration list for PBXProject "test_MPMovie" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,9 +252,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCEE8C5B1DC07C8C001BDE76 /* test_Capture */,
-				DCEE8C741DC07C8C001BDE76 /* test_CaptureTests */,
-				DCEE8C7F1DC07C8C001BDE76 /* test_CaptureUITests */,
+				DCEE8C5B1DC07C8C001BDE76 /* test_MPMovie */,
+				DCEE8C741DC07C8C001BDE76 /* test_MPMovieTests */,
+				DCEE8C7F1DC07C8C001BDE76 /* test_MPMovieUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -319,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		DCEE8C771DC07C8C001BDE76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCEE8C5B1DC07C8C001BDE76 /* test_Capture */;
+			target = DCEE8C5B1DC07C8C001BDE76 /* test_MPMovie */;
 			targetProxy = DCEE8C761DC07C8C001BDE76 /* PBXContainerItemProxy */;
 		};
 		DCEE8C821DC07C8C001BDE76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCEE8C5B1DC07C8C001BDE76 /* test_Capture */;
+			target = DCEE8C5B1DC07C8C001BDE76 /* test_MPMovie */;
 			targetProxy = DCEE8C811DC07C8C001BDE76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D2XBEJ6876;
-				INFOPLIST_FILE = test_Capture/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/test_MPMovie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dtspread.apps.test-Capture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D2XBEJ6876;
-				INFOPLIST_FILE = test_Capture/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/test_MPMovie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dtspread.apps.test-Capture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,7 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dtspread.apps.test-CaptureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_Capture.app/test_Capture";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_MPMovie.app/test_MPMovie";
 			};
 			name = Debug;
 		};
@@ -485,7 +487,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dtspread.apps.test-CaptureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_Capture.app/test_Capture";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_MPMovie.app/test_MPMovie";
 			};
 			name = Release;
 		};
@@ -516,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCEE8C571DC07C8C001BDE76 /* Build configuration list for PBXProject "test_Capture" */ = {
+		DCEE8C571DC07C8C001BDE76 /* Build configuration list for PBXProject "test_MPMovie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCEE8C871DC07C8C001BDE76 /* Debug */,
@@ -525,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCEE8C891DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_Capture" */ = {
+		DCEE8C891DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_MPMovie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCEE8C8A1DC07C8C001BDE76 /* Debug */,
@@ -534,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCEE8C8C1DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_CaptureTests" */ = {
+		DCEE8C8C1DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_MPMovieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCEE8C8D1DC07C8C001BDE76 /* Debug */,
@@ -543,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCEE8C8F1DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_CaptureUITests" */ = {
+		DCEE8C8F1DC07C8C001BDE76 /* Build configuration list for PBXNativeTarget "test_MPMovieUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCEE8C901DC07C8C001BDE76 /* Debug */,

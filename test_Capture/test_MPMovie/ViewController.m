@@ -42,8 +42,8 @@
 //    [self.navigationController pushViewController:mpVC animated:true];
 //    尽可能的使用present的方式进行显示出来
     mpVC.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:nil];
-//    [self presentViewController:mpVC animated:true completion:^{}];
-    [self.navigationController pushViewController:mpVC animated:true];
+    [self presentViewController:mpVC animated:true completion:^{}];
+//    [self.navigationController pushViewController:mpVC animated:true];
 }
 
 //
