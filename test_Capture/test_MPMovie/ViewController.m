@@ -16,7 +16,6 @@
 
 @end
 
-
 #define vedioStoryboard [UIStoryboard storyboardWithName:@"Video" bundle:nil]
 #define vedioInstance(Class) [vedioStoryboard instantiateViewControllerWithIdentifier:NSStringFromClass([Class class])]
 
@@ -37,7 +36,7 @@
 }
 
 - (IBAction)onMoviePlayerViewControllerClicked:(id)sender {
-    MPMoviePlayerViewController *mpVC = [[MPMoviePlayerViewController alloc] initWithContentURL:[NSURL URLWithString:@"http://localhost:8000/movie/test.mp4" ]];
+    MPMoviePlayerViewController *mpVC = [[MPMoviePlayerViewController alloc] initWithContentURL:[NSURL URLWithString:@"http://localhost:8000/movie/test0.mp4" ]];
 //    mpVC.moviePlayer =  read only
 //    [self.navigationController pushViewController:mpVC animated:true];
 //    尽可能的使用present的方式进行显示出来
