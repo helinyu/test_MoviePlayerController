@@ -121,4 +121,21 @@
     [super didReceiveMemoryWarning];
 }
 
+//
+//+(UIImage *)thumbnailFromVideoAtPath:(NSString *)videoFilePath
+//{
+//    NSURL *url = [NSURL fileURLWithPath:videoFilePath];
+//    AVURLAsset *asset = [[[AVURLAsset alloc]initWithURL:url options:nil] autorelease];
+//    AVAssetImageGenerator*generator =[[[AVAssetImageGenerator alloc]initWithAsset:asset] autorelease];
+//    
+//    NSError *error = nil;
+//    CMTime time =CMTimeMakeWithSeconds(2.0, 60);
+//    CGImageRef imgRef= [generator copyCGImageAtTime:time actualTime:NULL error:&error];
+//    if(error.description != nil) NSLog(@"Error:(thumbnailFromVideoAtPath:)%@",error.description);
+//    UIImage *image = [[[UIImage alloc]initWithCGImage:imgRef] autorelease];
+//    CFRelease(imgRef);
+//    
+//    return image;
+//}
+
 @end
